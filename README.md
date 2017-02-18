@@ -16,3 +16,7 @@ $ rails s
 1. Go to http://localhost:3000/admin
 2. Login as admin1@xinminlabs.com / 87654321
 3. Switch to another admin or user
+
+## Example
+
+It's deployed on heroku, you can visit [here](https://switch-user-example.herokuapp.com/admin)
