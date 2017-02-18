@@ -1,24 +1,18 @@
-# README
+# Switch User Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+```
+$ bundle install
+$ rails db:setup
+```
 
-* Ruby version
+## Test
 
-* System dependencies
+```
+$ rails s
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Go to http://localhost:3000/admin
+2. Login as admin1@xinminlabs.com / 87654321
+3. Switch to another admin or user

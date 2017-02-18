@@ -1,0 +1,5 @@
+<p>Current Admin: <%= current_admin.email %></p>
+
+<p><%= switch_user_select %></p>
+
+<%= link_to('Logout', destroy_admin_session_path, :method => :delete) %>
